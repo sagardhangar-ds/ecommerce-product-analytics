@@ -1,46 +1,64 @@
-E-commerce Product & Profit Analysis
+# E-Commerce Product & Profit Analysis
 
-Overview
+## Overview
 
-This project performs exploratory data analysis on an e-commerce sales dataset to understand profitability drivers and identify loss-making areas.
+This project performs exploratory data analysis (EDA) on an e-commerce sales dataset to identify profitability drivers and loss-making areas.
 
-Dataset
+The goal is to understand:
 
-Superstore Sales Dataset containing:
+* Which product categories generate the most profit
+* Which regions perform best
+* How discounts impact profitability
 
-Orders
-Products
-Sales
-Profit
-Discounts
-Regions
+---
 
-Analysis Performed
+## Dataset
 
-Data cleaning and duplicate removal
-Category vs Profit analysis
-Region vs Profit analysis
-Sub-category profitability analysis
-Discount impact on profit
-Region vs Category heatmap
-Root cause analysis for loss-making products
+Superstore sales dataset containing:
 
-Key Insights
-Technology category generates the highest profit
-Furniture category has significantly lower profitability
-West region performs the best
-Central region shows weaker performance
-Discounts above 30% cause major losses
-Tables sub-category becomes unprofitable with high discounts
+* Orders
+* Products
+* Sales
+* Profit
+* Discounts
+* Regions
 
-Tools Used
-Python
-Pandas
-Matplotlib
-Seaborn
-Jupyter Notebook
+---
 
-Author
+## Analysis Performed
 
-Sagar Dhangar
+1. Data cleaning and duplicate removal
+2. Category vs Profit analysis
+3. Region vs Profit analysis
+4. Sub-category profitability analysis
+5. Discount impact on profit
+6. Region vs Category heatmap
+7. Root cause analysis for loss-making products
+
+---
+
+## Key Insights
+
+* Technology category generates the highest profit
+* Furniture category has lower profitability
+* West region performs the best
+* Central region shows weaker performance
+* Discounts above 30% lead to significant losses
+* Tables sub-category becomes unprofitable with high discounts
+
+---
+
+## Tools Used
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+---
+
+## Author
+
+**Sagar Dhangar**
 Aspiring Data Analyst
